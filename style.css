@@ -1,0 +1,308 @@
+/* ALL: Body */
+body{
+  font-family:sans-serif;
+  background-color:white;
+  overflow-x:hidden;
+}
+
+/* ALL: Paragraph */
+p{
+  line-height:1.7;
+}
+
+/* ALL: Navigation Bar */
+nav{
+  display: flex;
+  width: 50vw;
+  justify-content: right;
+  flex-wrap: wrap;
+  margin: 30px auto 30px calc(100% - 50vw);
+}
+
+/* ALL: Navigation General Styling */
+nav a{
+  font-family:sans-serif;
+  background-color:white;
+  padding: 10px;
+  font-size:20px;
+  margin-right: 30px;
+  color: black;
+  font-weight:bold;
+  text-decoration:none;
+  border-radius:15px;
+}
+
+/* ALL: Navigation Visited */
+a:visited {
+ text-decoration: none;
+ color:#bfbfbf;
+}
+
+/* ALL: Navigation Hover */
+a:hover {
+  text-decoration: none;
+  background-color:#ff8775;
+  color:black;
+}
+
+/* ALL: Navigation Active Click*/
+a:active{
+  text-decoration: none;
+  background-color:#ffcb9e;
+  color:black;
+}
+
+a{
+  color:black;
+}
+
+/* HOME: Intro */
+#intro{
+  font-size:25px;
+  padding:0px 700px 0px 100px;
+}
+
+#hi{
+  color:#ff644d;
+}
+
+/* HOME: Column Container */
+#column_container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+/* HOME: First Column */
+#column1{
+  color:black;
+  width:20%;
+  padding:10px 20px 150px 20px;
+  background-color:white;
+  margin-top:30px;
+  float:left;
+  position:relative;
+  border-radius:15px;
+}
+
+#column1:hover{
+  background-color:#7aa7ff;
+  padding:20px 40px 150px 40px;
+}
+
+/* HOME: Second Column */
+#column2{
+  color:black;
+  width:20%;
+  padding:10px 20px 17px 20px;
+  background-color:white;
+  margin-top:30px;
+  float: left;
+  margin-left:60px;
+  position:relative;
+  border-radius:15px;
+}
+
+#column2:hover{
+  background-color: #ff8775;
+  padding:20px 40px 17px 40px;
+}
+
+/* HOME: Third Column */
+#column3{
+  color:black;
+  width:20%;
+  padding:10px 20px 0px 20px;
+  background-color:white;
+  margin-top:30px;
+  float: left;
+  margin-left:60px;
+  position:relative;
+  border-radius:15px;
+}
+
+#column3:hover{
+  background-color:#ffd75e;
+  padding:20px 40px 0px 40px;
+}
+
+/* HOME: Background Block */
+#block{
+  background-color: black;
+  padding:150px;
+  width:100%;
+  margin:200px -100px -100px -100px;
+}
+
+/* PORTFOLIO:Header */
+#portfoliohead{
+  font-size:30px;
+  padding:0px 700px 0px 300px;
+}
+
+/* PORTFOLIO:Project 1 */
+#proj1{
+  background-color: #7aa7ff;
+  font-size: 30px;
+  margin-left:300px;
+  margin-right:300px;
+  padding:200px 100px 200px 100px;
+  text-align:center;
+  text-decoration: none;
+  border-radius:15px;
+}
+
+#proj1:hover{
+  background-color:#446ec2;
+  color:white;
+}
+
+#proj2{
+  background-color:#ff8775;
+  font-size: 30px;
+  margin-left:300px;
+  margin-right:300px;
+  padding:200px 100px 200px 100px;
+  text-align:center;
+  text-decoration: none;
+  border-radius:15px;
+}
+
+#proj2:hover{
+  background-color: #ab4435;
+  color:white;
+  border:#ff8775 solid 3px;
+}
+
+#proj3{
+  background-color:#ffd75e;
+  font-size: 30px;
+  margin-left:300px;
+  margin-right:300px;
+  padding:200px 100px 200px 100px;
+  text-align:center;
+  text-decoration: none;
+  border-radius:15px;
+}
+
+#proj3:hover{
+  background-color:#d1a932;
+  color:white;
+  border: #ffd75e solid 3px;
+}
+
+#column_container2 {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.contact1{
+  width:40%;
+  float:left;
+  position:relative;
+  background-color:#446ec2;
+  color:white;
+  padding: 150px 35px 390.5px 200px;
+  margin-left: -200px;
+  margin-top:-150px;
+  text-align: right;
+  font-size: 30px;
+}
+
+.contact2{
+  float: left;
+  flex-wrap: wrap;
+  position:relative;
+  margin-top:250px;
+  margin-right:0px;
+  margin-bottom:100px;
+  margin-left:15px;
+  background-color:white;
+  text-align: left;
+  padding-left:15px;
+  padding-right: 0px;
+  padding-bottom:15px;
+  border-radius:15px;
+  flex-direction: column;
+}
+
+.contact2 textarea{
+  font-family: 'Roboto';
+  width:300px;
+  height:150px;
+  margin:0px;
+  margin-top:5px;
+}
+
+.con{
+  margin-top: 5px;
+}
+
+fieldset{
+  margin-right:3.5%;
+  margin-left:50%;
+  padding:20px 0px 0px 20px;
+  border-radius:25px;
+  font-family: 'Roboto';
+  border-color:#446ec2;
+}
+
+input{
+  margin-bottom:30px;
+  box-shadow: 0 0 3px #446ec2;
+  border-radius: 5px;
+  margin-left:10px;
+  border-color:white;
+}
+
+textarea{
+  border-width: 2px;
+  margin-top:15px;
+  box-shadow: 0 0 3px #446ec2;
+  border-radius: 5px;
+  border-color:white;
+}
+#sendbutton{
+  background-color: white;
+  font-family: 'Roboto';
+  padding:15px;
+  margin-top:20px;
+  margin-right:20px;
+  background-color: #e3edff;
+}
+
+input:focus {
+    background-color: #e3edff;
+    color: black;
+    border-color:#446ec2;
+  }
+
+input:not([type="submit"]):valid {
+    border-color: white;
+    box-shadow: 0 0 3px #446ec2;
+}
+
+input:not([type="submit"]) + .inputRequirements {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 1s ease-out;
+}
+
+input:not([type="submit"]):hover + .inputRequirements,
+input:not([type="submit"]):focus + .inputRequirements,
+input:not([type="submit"]):active + .inputRequirements {
+  max-height: 1000px;
+  transition: max-height 1s ease-in;
+}
+
+.box{
+  background-color:black;
+  padding:150px;
+  width:100%;
+  margin:200px -100px -100px -100px;
+}
+
+.contactbar{
+  color:white;
+  text-align: right;
+  margin-right:100px;
+}

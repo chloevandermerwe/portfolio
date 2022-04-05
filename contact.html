@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contact</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+</head>
+<body>
+
+
+  <nav>
+    <a href="main.html">Home</a>
+    <a href="work.html">Portfolio</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section id="column_container2">
+        <div class="contact1">
+
+            <h2>Share Questions or Comments</h2>
+              <h3>Contact me any time.</h3></div>
+
+                <form class="form" action="contact.php" method="post">
+                  <fieldset id="continput">
+                      <legend>Your Information</legend>
+
+                          <label for="name" class="form">
+                          Name:
+                          <input type="text" id="name" required>
+                          </label><br>
+
+                          <label for="email" class="form">
+                          Email:
+                          <input type="email" id="email">
+                          </label><br>
+
+                          <label for="message" class="form">
+                          Message: <br>
+                          <textarea rows="10" cols="65" id="TITLE">
+                          </textarea>
+                          </label>
+                      <input type="submit" value="Send" id="sendbutton"/>
+                    </fieldset>
+                </form>
+        <script>
+          console.log("javascript.working");
+          document.getElementById("sendbutton").addEventListener("click", function(){alert("Thanks for reaching out! I will get back to you soon.")});;
+          document.getElementbyId("input").addEventListener("")
+        </script>
+        <div class="box">
+          <p class="contactbar">Email: chloedvdm@gmail.com</p>
+          <p class="contactbar">Phone: (913)449-4441</p>
+        </div>
+</section>
+
+</body>
+</html>
